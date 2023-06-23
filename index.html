@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/UDT/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Harvest Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <script type="module" crossorigin src="/UDT/assets/index-3a6f03e8.js"></script>
+    <link rel="stylesheet" href="/UDT/assets/index-5fa69a1d.css">
+  </head>
+  <body>
+    <!-- ============ HEADER ============ -->
+<header class="page-header" id="to-top">
+  <div class="header-container container">
+    <nav class="page-navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#fruits">Fruits</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="logo-container" href="./index.html">
+      <svg class="logo-icon" width="16" height="16">
+        <use href="/UDT/assets/icons-8cb84425.svg#icon-logo"></use>
+      </svg>
+      fresh harvest box
+    </a>
+    <button class="header-btn" type="button" aria-label="Shopping basket">
+      <svg class="icon-header" width="24" height="24">
+        <use href="/UDT/assets/icons-8cb84425.svg#icon-basket"></use>
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="menu-button"
+      data-menu-button
+      aria-label="Togle mobile menu"
+    >
+      <svg width="24" height="24">
+        <use class="icon-cross" href="/UDT/assets/icons-8cb84425.svg#icon-close"></use>
+        <use class="icon-menu" href="/UDT/assets/icons-8cb84425.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+  <!-- =========== MOBILE-HEADER ============ -->
+  <div class="overlay" data-menu>
+    <div class="mobile-menu-wrapper">
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-item">
+          <a href="#how-it-works" class="mobile-menu-link">How It Work</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#fruits" class="mobile-menu-link">Fruits</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#contacts" class="mobile-menu-link">Contacts</a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="mobile-menu-btn"
+        aria-label="Shopping basket"
+      >
+        <svg class="mobile-menu-icon" width="20" height="18">
+          <use href="/UDT/assets/icons-8cb84425.svg#icon-basket"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="section-hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      fresh harvest box <br />is your one-stop place for a delicious fruit
+      basket
+    </h1>
+
+    <div class="wrapper-hero-btn">
+      <picture class="hero-picture">
+        <source
+          srcset="/UDT/assets/heromain-desktop-9c861462.png 1x, /UDT/assets/heromain-desktop@2x-b566c2b2.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/UDT/assets/heromain-tablet-94b193b1.png 1x, /UDT/assets/heromain-tablet@2x-d30f9607.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/UDT/assets/heromain-mobile-d1518d62.png 1x, /UDT/assets/heromain-mobile@2x-6cae9ac9.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="yonggirl"
+          src="/UDT/assets/heromain-mobile-d1518d62.png"
+          alt="pretty girl"
+          loading="lazy"
+        />
+      </picture>
+      <a href="#fruits" class="link-shopnow">shop now</a>
+    </div>
+
+    <div class="cards-items-watermelon">
+      <p class="hero-paragraph">
+        Our expertly curated fruit baskets are made with the freshest, highest
+        quality fruits available. Whether you are looking for a healthy snack or
+        a gift for a loved one, Fresh Harvest Box has got you covered.
+      </p>
+
+      <div class="hero-card-thumb">
+        <div class="hero-card-watermelon">
+          <h2 class="hero-title-watermelon">Fruit</h2>
+          <div class="img-decor-hero">
+            <img
+              srcset="/UDT/assets/hero-fruit3-e32e9ab6.png 200w, /UDT/assets/hero-fruit3@2x-d40a4d31.png 400w"
+              sizes="(min-width: 319px) 200px, 100vw"
+              src="/UDT/assets/hero-fruit3-e32e9ab6.png"
+              alt="watermelon"
+            />
+          </div>
+          <p class="hero-card-parag">
+            Refreshing and juicy, watermelon is the perfect summer treat and a
+            great source of hydration
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cards-items-strawberry">
+      <ul class="list-item-hero">
+        <li class="item-hero item-organic">
+          <h3>#organic</h3>
+        </li>
+        <li class="item-hero item-products">
+          <h3>#products</h3>
+        </li>
+        <li class="item-hero item-basket">
+          <h3>#basket</h3>
+        </li>
+        <li class="item-hero item-fruits">
+          <h3>#fruits</h3>
+        </li>
+      </ul>
+
+      <div class="hero-card-thumb-strawberry">
+        <div class="hero-card-strawberry">
+          <h2 class="hero-title-strawberry">Fruit</h2>
+          <div class="img-decor-hero">
+            <img
+              srcset="/UDT/assets/hero-friut-4-676e046a.png 162w, /UDT/assets/hero-friut4@2x-7bd9e411.png 324w"
+              sizes="(min-width: 319px) 162px, 100vw"
+              src="/UDT/assets/hero-friut-4-676e046a.png"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <p class="hero-card-parag">
+            Sweet and juicy, strawberries are packed with vitamin C and
+            antioxidants, making them a delicious and healthy snack
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="how-it-works-section" id="how-it-works">
+    <div class="container">
+        <h2 class="how-it-works-section-title">To order your fruit basket, simply follow these easy steps</h2>
+        <p class="how-it-works-section-desc">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
+        <ul class="how-it-works-list">
+            <li class="how-it-works-item">
+            <a class="how-it-works-link first" href="#fruits">FIrst Step</a>
+            <p class="how-it-works-item-desc">Just choose the fruit you want to order by clicking on the checkboxes next to it.</p>
+            </li>
+            <li class="how-it-works-item">
+                <a class="how-it-works-link second" href="#fruits">Second Step</a>
+                <p class="how-it-works-item-desc">Click on the basket and fill out the form.</p>
+            </li>
+            <li class="how-it-works-item">
+                <a class="how-it-works-link third" href="#contacts">Third Step</a>
+                <p class="how-it-works-item-desc">Sit back and relax! Your fresh fruit basket will be delivered.</p>
+            </li>
+        </ul>
+<div class="gif-wrapper"></div>
+    </div>
+
+    <!-- ========== TO-TOP BTN ========== -->
+
+    <a href="#to-top" class="scroll scroll-to-top"><svg class="to-top-icon" width="26" height="26" aria-label="to top scroll">
+        <use href="/UDT/assets/icons-8cb84425.svg#to-top-icon"></use>
+      </svg></a>
+    
+</section>
+
+
+      <section class="fruits-section" id="fruits">
+  <div class="fruits container">
+    <h2 class="fruits-section-title">organic fruits</h2>
+    <p class="fruits-text">
+      Our organic fruits are hand-picked from local farms and delivered straight
+      to your doorstep, ensuring that you get the freshest and most nutritious
+      produce possible. We offer a wide selection of organic fruits grown
+      without the use of harmful pesticides or chemicals.
+    </p>
+    <ul class="fruits-list">
+      <li class="fruits-item strawberry">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Strawberry
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/strawberry-679cb1a9.png 295w, /UDT/assets/strawberry@2x-4aa535df.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/strawberry-679cb1a9.png"
+            alt="strawberry"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">100 UAH / kg</p>
+      </li>
+      <li class="fruits-item banana">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Banana
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/banana-4bc21165.png 295w, /UDT/assets/banana@2x-79ef5c55.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/banana-4bc21165.png"
+            alt="banana"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">80 UAH / kg</p>
+      </li>
+      <li class="fruits-item watermelon">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Watermelon
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/watermelon-4e44121c.png 295w, /UDT/assets/watermelon@2x-bba2fc83.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/watermelon-4e44121c.png"
+            alt="watermelon"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">40 UAH / kg</p>
+      </li>
+      <li class="fruits-item lime">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Lime
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/lime-1fe0ea55.png 295w, /UDT/assets/lime@2x-42ae51e7.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/lime-1fe0ea55.png"
+            alt="lime"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">60 UAH / kg</p>
+      </li>
+      <li class="fruits-item apple">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Apple
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/apple-84c2eb39.png 295w, /UDT/assets/apple@2x-b82c7526.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/apple-84c2eb39.png"
+            alt="apple"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">50 UAH / kg</p>
+      </li>
+      <li class="fruits-item peach">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Peach
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/peach-3ee0610b.png 295w, /UDT/assets/peach@2x-d83ce8fe.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/peach-3ee0610b.png"
+            alt="peach"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">80 UAH / kg</p>
+      </li>
+      <li class="fruits-item plums">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plums
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/plums-e8ee170b.png 295w, /UDT/assets/plums@2x-0235b559.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/plums-e8ee170b.png"
+            alt="plums"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">40 UAH / kg</p>
+      </li>
+      <li class="fruits-item orange">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Orange
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/orange-dad8e6a7.png 295w, /UDT/assets/orange@2x-7d373a3a.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/orange-dad8e6a7.png"
+            alt="orange"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">60 UAH / kg</p>
+      </li>
+      <li class="fruits-item kiwi">
+        <h3
+          class="fruits-item-title"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Kiwi
+        </h3>
+        <p
+          class="fruits-item-text"
+          data-aos="zoom-in"
+          data-aos-offset="25"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          Plant
+        </p>
+        <div class="fruits-img-thumb kenburns-top">
+          <img
+            class="fruits-item-image"
+            srcset="/UDT/assets/kiwi-60db7f1f.png 295w, /UDT/assets/kiwi@2x-ba03438b.png 590w"
+            sizes="(min-width: 319px) 295px, 100vw"
+            src="/UDT/assets/kiwi-60db7f1f.png"
+            alt="kiwi"
+            loading="lazy"
+          />
+        </div>
+        <p class="fruits-item-price">90 UAH / kg</p>
+      </li>
+    </ul>
+    <button class="btn-order" type="button" data-modal-open>
+      <svg class="icon-arrow" width="14" height="14">
+        <use href="/UDT/assets/icons-8cb84425.svg#icon-arrow"></use>
+      </svg>
+      <span class="btn-order-text">Order</span>
+    </button>
+
+    <!--============= modal-window============= -->
+    <!-- action="modal-open-form" -->
+    <div class="backdropp is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="submit" class="close-btn" data-modal-close>
+          <svg class="svg-close" width="24px" height="24px">
+            <use href="/UDT/assets/icons-8cb84425.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <h2 class="modal-title">Your Order</h2>
+
+        <form class="form-information">
+          <fieldset class="cards-list">
+            <div class="form-fruits-modal">
+              <input
+                type="checkbox"
+                id="strawberry"
+                class="modal-click-fruits"
+                name="Basket"
+              />
+              <label class="click card card-strawberry" for="strawberry">
+                <span class="modal-titles">
+                  <span class="modal-subtitle">Strawberry Basket</span>
+                  <span class="modal-text">Plant</span>
+                </span>
+
+                <picture class="modal-img-fruits">
+                  <source
+                    srcset="/UDT/assets/modal-fruit1-454ad603.png 1x, /UDT/assets/modal-fruit1@2x-68107dc4.png 2x"
+                    media="(min-width: 1280px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit1-tablet-e36174a4.png 1x, /UDT/assets/modal-fruit1-tablet@2x-b2504059.png 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit1-mobile-a48f92a0.png 1x, /UDT/assets/modal-fruit1-mobile@2x-ebf41119.png 2x"
+                    media="(max-width: 767px)" />
+
+                  <img
+                    src="/UDT/assets/modal-fruit1-mobile-a48f92a0.png"
+                    alt="Strawberry"
+                    loading="lazy"
+                /></picture>
+                <span class="check">
+                  <svg class="icon-check" width="6" height="6">
+                    <use href="/UDT/assets/icons-8cb84425.svg#icon-check"></use>
+                  </svg>
+                </span>
+              </label>
+            </div>
+
+            <div class="form-fruits-modal">
+              <input
+                type="checkbox"
+                id="apple"
+                class="modal-click-fruits"
+                name="Basket"
+              />
+              <label class="click card card-apple" for="apple">
+                <span class="modal-titles">
+                  <span class="modal-subtitle"> Apple Basket </span>
+                  <span class="modal-text">Plant</span>
+                </span>
+
+                <picture class="modal-img-fruits">
+                  <source
+                    srcset="/UDT/assets/modal-fruit2-b6a79912.png 1x, /UDT/assets/modal-fruit2@2x-ea098d3d.png 2x"
+                    media="(min-width: 1280px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit2-tablet-74a7e21e.png 1x, /UDT/assets/modal-fruit2-tablet@2x-7c29b4c3.png 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit2-mobile-6d349af1.png 1x, /UDT/assets/modal-fruit2-mobile@2x-ed7beb9d.png 2x"
+                    media="(max-width: 767px)" />
+
+                  <img
+                    src="/UDT/assets/modal-fruit2-mobile-6d349af1.png"
+                    alt="Apple"
+                    loading="lazy"
+                /></picture>
+
+                <span class="check">
+                  <svg class="icon-check" width="6" height="6">
+                    <use href="/UDT/assets/icons-8cb84425.svg#icon-check"></use>
+                  </svg>
+                </span>
+              </label>
+            </div>
+
+            <div class="form-fruits-modal">
+              <input
+                type="checkbox"
+                id="fruits-oll"
+                class="modal-click-fruits"
+                name="Basket"
+              />
+              <label class="click card card-fruits" for="fruits-oll">
+                <span class="modal-titles">
+                  <span class="modal-subtitle"> Fruits Basket </span>
+                  <span class="modal-text">Plant</span>
+                </span>
+
+                <picture class="modal-img-fruits">
+                  <source
+                    srcset="/UDT/assets/modal-fruit3-d77f61bc.png 1x, /UDT/assets/modal-fruit3@2x-1a4e3a83.png 2x"
+                    media="(min-width: 1280px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit3-tablet-eeb8a66b.png 1x, /UDT/assets/modal-fruit3-tablet@2x-53e773b2.png 2x"
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="/UDT/assets/modal-fruit3-mobile-d60c1725.png 1x, /UDT/assets/modal-fruit3-mobile@2x-111a9b82.png 2x"
+                    media="(max-width: 767px)" />
+
+                  <img
+                    src="/UDT/assets/modal-fruit3-mobile-d60c1725.png"
+                    alt="Fruits"
+                    loading="lazy"
+                /></picture>
+
+                <span class="check">
+                  <svg class="icon-check" width="6" height="6">
+                    <use href="/UDT/assets/icons-8cb84425.svg#icon-check"></use>
+                  </svg>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+          <!-- form -->
+          <fieldset class="modal-form">
+            <label class="form-label">
+              <input
+                type="text"
+                class="form-input"
+                name="username"
+                placeholder="Enter full name..."
+                minlength="3"
+                required
+              />
+            </label>
+
+            <label class="form-label">
+              <input
+                type="email"
+                class="form-input"
+                name="mail"
+                placeholder="Enter email..."
+                required
+              />
+            </label>
+
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="tel"
+                inputmode="numeric"
+                pattern="[0-9\s]{13,19}"
+                autocomplete="on"
+                maxlength="19"
+                required
+                placeholder="Enter card.."
+                name="number-card"
+            /></label>
+
+            <label class="form-label comments">
+              <textarea
+                class="form-input comments-element"
+                name="text"
+                placeholder="Enter comments..."
+              ></textarea>
+            </label>
+
+            <button class="modal-btn-submit" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==================== -->
+
+      <!-- СЕКЦІЯ КОНТАКТИ -->
+<section class="contacts-section" id="contacts">
+  <div class="contacts container">
+    <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+    <img
+      class="contacts-img-mobile"
+      src="/UDT/assets/contacts-fruit1-mobile-88005bb6.png"
+      srcset="/UDT/assets/contacts-fruit1-mobile-88005bb6.png 1x, /UDT/assets/contacts-fruit1-mobile@2x-2a40074d.png 2x"
+      alt="sliced green melon"
+      width="335"
+      height="476"
+      loading="lazy"
+    />
+    <div class="contacts-img-tablet">
+      <img
+        src="/UDT/assets/contacts-fruit1-tablet-c55fa042.png"
+        srcset="/UDT/assets/contacts-fruit1-tablet-c55fa042.png 1x, /UDT/assets/contacts-fruit1-tablet@2x-dddc5d77.png 2x"
+        alt="sliced green melon"
+        width="344"
+        height="480"
+        loading="lazy"
+      />
+      <img
+        src="/UDT/assets/contacts-fruit2-tablet-148ff0e0.png"
+        srcset="/UDT/assets/contacts-fruit2-tablet-148ff0e0.png 1x, /UDT/assets/contacts-fruit2-tablet@2x-05e071bd.png 2x"
+        alt="a lot of blueberries"
+        width="344"
+        height="480"
+        loading="lazy"
+      />
+    </div>
+    <div class="contacts-img-desktop">
+      <img
+        src="/UDT/assets/contacts-fruit1-892b66c0.png"
+        srcset="/UDT/assets/contacts-fruit1-892b66c0.png 1x, /UDT/assets/contacts-fruit1@2x-c0526d09.png 2x"
+        alt="sliced green melon"
+        width="792"
+        height="502"
+        loading="lazy"
+      />
+      <img
+        src="/UDT/assets/contacts-fruit2-desktop-76d673cf.png"
+        srcset="/UDT/assets/contacts-fruit2-desktop-76d673cf.png 1x, /UDT/assets/contacts-fruit2-desktop@2x-5b76775b.png 2x"
+        alt="a lot of blueberries"
+        width="400"
+        height="502"
+        loading="lazy"
+      />
+    </div>
+    <div class="contacts-email">
+      <p class="contacts-text">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form class="contacts-form">
+        <label for="contact-mail"></label>
+        <input
+          id="contact-mail"
+          class="contacts-input"
+          type="email"
+          name="email"
+          placeholder="Enter email..."
+          required
+          minlength="5"
+        />
+        <button class="contacts-btn" type="submit" thanks-data-modal-open>
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      
+      <div class="backdrop thanks-is-hidden" data-thanks-modal>
+  <div class="modal-thank-you">
+    <button class="modal-ty-btn" data-thanks-modal-close>
+      <svg class="modal-ty">
+        <use href="/UDT/assets/icons-8cb84425.svg#icon-close"></use>
+      </svg>
+    </button>
+    <picture class="raspberry-img">
+      <source
+        media="(min-width:768px)"
+        srcset="/UDT/assets/modal2-fruit-b07a9e6a.png 1x, /UDT/assets/modal2-fruit@2x-e89b588e.png 2x"
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="/UDT/assets/modal2-mobile-63a930d5.png 1x, /UDT/assets/modal2-mobile@2x-9d1bab06.png 2x"
+      />
+      <img
+        src="/UDT/assets/modal2-mobile-63a930d5.png"
+        alt="raspberry"
+        loading="lazy"
+      />
+    </picture>
+
+    <h2 class="modal-title-ty focus-in-expand">THANK YOU</h2>
+    <p class="modal-text-ty">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer-container">
+    <div class="tablet-footer-container">
+      <div class="footer-image-container">
+        <img
+          class="footer-img"
+          srcset="/UDT/assets/footer-img-36401c04.png 1x, /UDT/assets/footer-img@2x-84e3064c.png 2x"
+          src="/UDT/assets/footer-img-36401c04.png"
+          alt="woman"
+        />
+        <a class="logo-container footer-logo-container" href="./index.html">
+          <svg class="logo-icon footer-icon" width="16" height="16">
+            <use href="/UDT/assets/icons-8cb84425.svg#icon-logo"></use>
+          </svg>
+          fresh harvest box
+        </a>
+      </div>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a
+            class="footer-nav-link"
+            href="#how-it-works"
+            class="footer-nav-link"
+            >How It Works</a
+          >
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#fruits" class="footer-nav-link"
+            >Fruits</a
+          >
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#contacts" class="footer-nav-link"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="tablet-footer-flex">
+      <ul class="social social-list">
+        <li class="social-item">
+          <a
+            aria-label="facebook"
+            class="social-link"
+            href="https://www.facebook.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="/UDT/assets/icons-8cb84425.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            aria-label="instagram"
+            class="social-link"
+            href="https://www.instagram.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="/UDT/assets/icons-8cb84425.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            aria-label="youtube"
+            class="social-link"
+            href="https://www.youtube.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="/UDT/assets/icons-8cb84425.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address class="footer-address">
+        <a class="footer-address-tel" href="tel:380684439426"
+          >+380 (68) 443-94-26</a
+        >
+        <a
+          class="footer-address-address"
+          href="https://goo.gl/maps/7LbvUQEst7Lp7oVU9?coh=178571&entry=tt"
+          rel="noopener noreferrer"
+          target="_blank"
+          >1678 S. Pioneer Road Salt Lake City <br />UT 84104</a
+        >
+      </address>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
