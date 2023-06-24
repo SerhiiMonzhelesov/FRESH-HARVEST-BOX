@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/UDT/",
+    "build": "vite build --base=/FRESH-HARVEST-BOX/",
     "preview": "vite preview"
   },
   "devDependencies": {
